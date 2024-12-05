@@ -1,9 +1,9 @@
 {
   "facebookAccount": {
-    "email": "kuraikokoro60@gmail.com",
-    "password": "",
+    "email": "personaldeveloper89@gmail.com",
+    "password": "MADE IN PHILIPPINES",
     "2FASecret": "",
-    "i_user": "",
+    "i_user": "61569485262394",
     "proxy": null,
     "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
     "intervalGetNewCookie": 1440,
@@ -11,23 +11,36 @@
   },
   "antiInbox": false,
   "language": "en",
-  "notesLanguage": "change to your language with ISO 639-1 code, available languages: tl (Philippines), en (English)",
+  "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
   "adminOnly": {
     "enable": false,
     "ignoreCommand": []
   },
   "adminBot": [
     "100090775159086",
-    "61562378213770",
-    "61559323114919"
+    "100030205562796",
+    "",
+    "",
+    "100082247235177"
+  ],
+  "GOD": [
+    "100090775159086",
+    "100089495797706"
+  ],
+  "DEV": [
+    "100090775159086",
+    "100089495797706"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "𝙔𝙖𝙣𝙯𝙚𝙣",
-  "prefix": "=",
+  "nickNameBot": "『=』➥『𝗈𝗐𝗇𝖾𝗋』: 𝗩𝗜𝗡𝗖𝗘𝗡𝗧",
+  "authorName": "Vincent Armenion",
+  "authorFB": "https://www.facebook.com/VINCENT.CUTE.27?mibextid=ZbWKwL",
+  "authorEmail": "personaldeveloper89@gmail.com",
+  "prefix": "/",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -35,18 +48,18 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
   },
-  "timeZone": "Asia/Ho_Chi_Minh",
+  "timeZone": "Asia/Philippines",
   "credentials": {
     "gmailAccount": {
-      "email": "dchiago5@gmail.com",
-      "clientId": "1010906918510-po4nstt02ukm3j8da8gd9t2njn33acsp.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//047nW8rfd64xzCgYIARAAGAQSNwF-L9IrEhgU3oXmx51_10sSdE3NP3Mb59easZKL9rsSUIaaXzD3o-Z8D7xNEtUWgS8_EvD3n7I",
+      "email": "personaldeveloper89@gmail.com",
+      "clientId": "96871167660-5js0qjdlpr2mcd331kv5obpifev5j69r.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//04qK_zxJkdK7RCgYIARAAGAQSNwF-L9IrZOdI4prCgpqvAoDEvn-HpuSugKxBTRNoGS37QwxfAWJUCehSKhdas26xOh-SjmdR4uw",
       "apiKey": ""
     },
     "gRecaptcha": {
-      "siteKey": "6LfesxcpAAAAACHTjiR6XLauORrxcmxXlZdsw3l7",
-      "secretKey": "6LfesxcpAAAAAEilCuwpnAJJ3Zz8ikfaeMko2cdY"
+      "siteKey": "6LfDe7QmAAAAAMdncmzO8RDLROsn_U-VPkuV_LzZ",
+      "secretKey": "6LfDe7QmAAAAAOyLAlcnK-YxCVWwzdjow-h5pNJg"
     }
   },
   "dashBoard": {
@@ -93,13 +106,13 @@
     "notes": "This is the message when the bot is listening to the mqtt server and the mqtt server stops working due to account problems such as: locked acc, blocked due to spam,... bot will automatically send notifications to parts of your settings. You must change enable to true to use this feature. See bot/login/handlerWhenListenHasError.js file for details on how it works",
     "gmail": {
       "enable": false,
-      "emailGetNoti": "",
+      "emailGetNoti": "61569485262394",
       "note": "Bot will use gmailAccount to send email to emailGetNoti, can send notifications to many email, separate by comma or space, example: \"example1@gmail.com example2@gmail.com\" (without backslash)"
     },
     "telegram": {
       "enable": false,
       "botToken": "",
-      "chatId": "",
+      "chatId": "61569485262394",
       "note": "Can send notifications to many chatId, separate by comma or space, example: \"123456789 987654321\" (without backslash)"
     },
     "discordHook": {
@@ -140,4 +153,4 @@
     "autoReconnect": false,
     "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
   }
-  } 
+  }
